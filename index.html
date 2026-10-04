@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAXIMIZE — Immersive sound for the digital generation</title>
+  <meta name="description" content="Discover beautifully designed headphones and earbuds at MAXIMIZE. Premium sound, made for every moment." />
+  <meta property="og:title" content="MAXIMIZE — Immersive sound for the digital generation" />
+  <meta property="og:description" content="Discover beautifully designed headphones and earbuds at MAXIMIZE. Premium sound, made for every moment." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+
+    <!-- Promo bar -->
+    <div class="promo-bar">Weekend Special — 40% Off on Selected Audio Products!</div>
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="page-container header-inner">
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#collection">Shop</a>
+          <a href="#collection">Collections</a>
+          <a href="#about">About Us</a>
+        </nav>
+        <a href="#home" class="brand" aria-label="MAXIMIZE home">MAXIMIZE</a>
+        <div class="header-actions">
+          <button class="icon-control" id="search-toggle" aria-label="Search products">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          </button>
+          <button class="icon-control user-icon" id="about-link" aria-label="About us">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </button>
+          <button class="icon-control" id="cart-open" aria-label="Open bag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span class="cart-count" id="cart-count" hidden>0</span>
+          </button>
+          <button class="icon-control mobile-menu" id="menu-toggle" aria-label="Open menu">
+            <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" hidden><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+      </div>
+      <nav class="mobile-panel" id="mobile-panel" aria-label="Mobile navigation" hidden>
+        <a href="#home">Home</a>
+        <a href="#collection">Shop</a>
+        <a href="#collection">Collections</a>
+        <a href="#about">About Us</a>
+        <a href="#journal">Journal</a>
+      </nav>
+      <div class="search-panel" id="search-panel" hidden>
+        <input type="search" id="search-input" placeholder="Search audio products" aria-label="Search audio products" />
+        <div class="search-results" id="search-results"></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- 1. Hero -->
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="page-container hero-inner">
+          <div class="hero-copy">
+            <h1 id="hero-title">IMMERSIVE SOUND<br />FOR THE <span>DIGITAL GENERATION</span></h1>
+            <p>Engineered with advanced features to elevate your listening experience every day.</p>
+            <a class="hero-cta" href="#features">
+              <span class="cta-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </span>
+              <span class="pill-button">Discover More
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </span>
+            </a>
+          </div>
+          <div class="hero-product">
+            <img src="assets/hero-headphones.png" alt="Black premium over-ear headphones" width="1024" height="1024" />
+          </div>
+          <div class="hero-bottom">
+            <span>01 / 03 &nbsp;—&nbsp; THE SOUND OF MORE</span>
+            <div class="hero-pagination"><i></i><i></i><i></i></div>
+            <span>SCROLL TO EXPLORE
+              <svg class="inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Features -->
+      <section class="feature-section section-pad" id="features">
+        <div class="page-container feature-grid">
+          <div class="feature-copy">
+            <h2 class="section-title">POWERFUL SOUND<br />ANYTIME ANYWHERE</h2>
+            <p class="section-description">Enjoy premium sound quality with long battery life, a lightweight design and modern features that are ready to accompany your activities throughout the day.</p>
+            <ul class="feature-list">
+              <li>Long Battery Life</li>
+              <li>Signature JBL Sound Quality</li>
+              <li>Durable &amp; Rugged Build</li>
+              <li>Portable &amp; Lightweight Design</li>
+              <li>Built-in Voice Assistant Support</li>
+            </ul>
+            <a href="#collection" class="pill-button">Discover More
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+          </div>
+          <div class="feature-visual">
+            <img src="assets/earbuds-case.png" alt="Wireless earbuds in an open silver charging case" loading="lazy" width="1024" height="1024" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Showcase carousel -->
+      <section class="showcase-section" aria-label="Featured audio products">
+        <div class="page-container">
+          <div class="showcase-heading">
+            <h2 class="section-title">HEAR EVERY DETAIL</h2>
+            <p class="section-description">Thoughtfully built to make every moment sound extraordinary.</p>
+          </div>
+          <img class="showcase-image" id="showcase-image" src="assets/silver-headphones.png" alt="Silver and black wireless headphones" width="1024" height="1024" />
+          <div class="showcase-controls">
+            <button class="icon-control" id="showcase-prev" aria-label="Previous product">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <span id="showcase-counter">01 / 03</span>
+            <button class="icon-control" id="showcase-next" aria-label="Next product">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Collection -->
+      <section class="collection-section" id="collection">
+        <div class="page-container">
+          <div class="section-heading-row">
+            <div>
+              <h2 class="section-title">ELITE TECH COLLECTION</h2>
+              <p class="section-description">Premium devices carefully chosen for exceptional performance and minimalist beauty.</p>
+            </div>
+            <a href="#products" class="pill-button">Shop All
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </div>
+          <div class="collection-grid" id="products">
+
+            <article class="product-card" data-name="NovaPods Air" data-price="15">
+              <div class="product-media">
+                <img src="assets/earbuds-case.png" alt="NovaPods Air" loading="lazy" width="1024" height="1024" />
+                <span class="product-tag">Bestseller</span>
+                <button class="product-add">Add to bag
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </button>
+              </div>
+              <div class="product-info"><h3>NovaPods Air</h3><strong>$15.00</strong></div>
+              <div class="swatches" aria-label="NovaPods Air colors">
+                <button class="swatch active" data-color="silver" aria-label="NovaPods Air in silver" title="silver"></button>
+                <button class="swatch" data-color="black" aria-label="NovaPods Air in black" title="black"></button>
+                <button class="swatch" data-color="lime" aria-label="NovaPods Air in lime" title="lime"></button>
+              </div>
+            </article>
+
+            <article class="product-card" data-name="NovaSound Pro" data-price="25">
+              <div class="product-media">
+                <img src="assets/silver-headphones.png" alt="NovaSound Pro" loading="lazy" width="1024" height="1024" />
+                <button class="product-add">Add to bag
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </button>
+              </div>
+              <div class="product-info"><h3>NovaSound Pro</h3><strong>$25.00</strong></div>
+              <div class="swatches" aria-label="NovaSound Pro colors">
+                <button class="swatch active" data-color="copper" aria-label="NovaSound Pro in copper" title="copper"></button>
+                <button class="swatch" data-color="black" aria-label="NovaSound Pro in black" title="black"></button>
+                <button class="swatch" data-color="silver" aria-label="NovaSound Pro in silver" title="silver"></button>
+              </div>
+            </article>
+
+            <article class="product-card" data-name="AuraPods Lite" data-price="20">
+              <div class="product-media lifestyle">
+                <img src="assets/lifestyle-headphones.jpg" alt="AuraPods Lite" loading="lazy" width="1024" height="1024" />
+                <button class="product-add">Add to bag
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </button>
+              </div>
+              <div class="product-info"><h3>AuraPods Lite</h3><strong>$20.00</strong></div>
+              <div class="swatches" aria-label="AuraPods Lite colors">
+                <button class="swatch active" data-color="lime" aria-label="AuraPods Lite in lime" title="lime"></button>
+                <button class="swatch" data-color="silver" aria-label="AuraPods Lite in silver" title="silver"></button>
+                <button class="swatch" data-color="black" aria-label="AuraPods Lite in black" title="black"></button>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Story / About -->
+      <section class="story-section section-pad" id="about">
+        <div class="page-container story-grid">
+          <div class="story-copy">
+            <h2 class="section-title">“The battery lasts a really long time. I use it almost all day without needing to recharge.”</h2>
+            <p class="section-description">Sound that moves with you. Every detail is designed to feel as good as it sounds, from the first track to the last.</p>
+            <a href="#collection" class="pill-button">Explore the collection
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </div>
+          <div class="story-visual">
+            <img src="assets/lifestyle-headphones.jpg" alt="Woman wearing copper over-ear headphones" loading="lazy" width="1024" height="1024" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Manifesto -->
+      <section class="manifesto-section">
+        <div class="page-container">
+          <p>Maximize delivers modern audio technology with premium design. We create comfortable, high-quality devices designed to deliver the best audio experience for every activity.</p>
+          <small>MADE FOR THE WAY YOU LISTEN.</small>
+        </div>
+      </section>
+
+      <!-- 7. Journal -->
+      <section class="journal-section section-pad" id="journal">
+        <div class="page-container">
+          <div class="section-heading-row">
+            <div>
+              <h2 class="section-title">BLOG</h2>
+              <p class="section-description">Discover the stories, creative processes, and technology behind our best collections.</p>
+            </div>
+            <a href="#journal-posts" class="pill-button">Visit Blog
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </div>
+          <div class="journal-grid" id="journal-posts">
+            <article class="journal-card">
+              <img src="assets/journal-product.jpg" alt="Eco-Friendly Luxury: What Is It?" loading="lazy" width="1024" height="512" />
+              <h3>Eco-Friendly Luxury: What Is It?</h3>
+              <p>MAXIMIZE JOURNAL / APRIL 18, 2026</p>
+              <a href="#about">READ MORE
+                <svg class="inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            </article>
+            <article class="journal-card">
+              <img src="assets/journal-lifestyle.jpg" alt="Serenity: how it all started" loading="lazy" width="1024" height="512" />
+              <h3>Serenity: how it all started</h3>
+              <p>MAXIMIZE JOURNAL / APRIL 12, 2026</p>
+              <a href="#about">READ MORE
+                <svg class="inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            </article>
+            <article class="journal-card">
+              <img src="assets/lifestyle-headphones.jpg" alt="The process behind our new collection" loading="lazy" width="1024" height="512" />
+              <h3>The process behind our new collection</h3>
+              <p>MAXIMIZE JOURNAL / APRIL 04, 2026</p>
+              <a href="#about">READ MORE
+                <svg class="inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="page-container">
+        <div class="footer-grid">
+          <div>
+            <a href="#home" class="brand">MAXIMIZE</a>
+            <p>Redefining the way you experience sound, one moment at a time.</p>
+          </div>
+          <div>
+            <h4>Navigation</h4>
+            <div class="footer-links">
+              <a href="#home">Home</a>
+              <a href="#collection">Shop</a>
+              <a href="#about">About Us</a>
+              <a href="#journal">Journal</a>
+            </div>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <div class="footer-links">
+              <a href="#features">Our sound</a>
+              <a href="#collection">Headphones</a>
+              <a href="#collection">Earbuds</a>
+              <a href="#journal">Stories</a>
+            </div>
+          </div>
+          <div>
+            <h4>Stay in the loop</h4>
+            <p>Fresh sounds and stories, straight to your inbox.</p>
+            <form class="newsletter-form" id="newsletter-form">
+              <input type="email" id="newsletter-email" aria-label="Email address" placeholder="Your email address" required />
+              <button type="submit" class="pill-button" aria-label="Subscribe">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </button>
+            </form>
+            <p class="form-message" id="form-message" role="status" hidden>Thanks for subscribing.</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 MAXIMIZE. All rights reserved.</span>
+          <span>Designed for better listening.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Cart drawer -->
+    <div class="cart-backdrop" id="cart-backdrop" hidden></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping bag" hidden>
+      <div class="cart-header">
+        <h2>Your bag (<span id="cart-title-count">0</span>)</h2>
+        <button class="icon-control" id="cart-close" aria-label="Close bag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-total"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <button class="pill-button" id="cart-continue">Continue shopping</button>
+    </aside>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
